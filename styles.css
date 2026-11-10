@@ -34,3 +34,14 @@ body {
     background-color: #3882f6
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
