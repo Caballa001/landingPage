@@ -9,3 +9,28 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.header, .footer {
+    background-color: #0b1524;
+}
+
+.header > *, .footer > *, .floating-signup > *, .signup-header {
+    color: #f9faf8;
+}
+
+.content > * {
+    color: #0b1524;
+}
+
+.content-quote {
+    background-color: #e5e7eb;
+}
+
+.quote-attribution {
+    color: #0b1524;
+}
+
+.floating-signup {
+    background-color: #3882f6
+}
+
