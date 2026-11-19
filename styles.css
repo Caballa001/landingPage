@@ -102,3 +102,26 @@ body {
 button {
     background-color: #3882f6;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.pictures {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.picture-frame {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    corner-shape: squircle;
+    flex-shrink: 0;
+}
