@@ -18,6 +18,21 @@ body {
     color: #f9faf8;
 }
 
+.signup-header {
+    display: flex;
+    border-radius: 8px;
+    corner-shape: squircle;
+    justify-content: center;
+    align-items: center;
+    margin-block: 8px;
+    padding: 4px;
+    border: none;
+}
+
+.header {
+    max-height: 300px;
+}
+
 .header-holder {
     display: flex;
     flex-direction: column;
