@@ -70,7 +70,33 @@ body {
 }
 
 .floating-signup {
-    background-color: #3882f6
+    display: flex;
+    background-color: #3882f6;
+    flex-grow: 1;
+    margin: 40px;
+    corner-shape: squircle;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.signup-title {
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.signup-body {
+    margin-top: 1px;
+}
+
+.signup-button {
+    display: flex;
+    border-radius: 8px;
+    corner-shape: squircle;
+    justify-content: center;
+    align-items: center;
+    margin-block: 16px;
+    border: 1px solid #f9faf8;
 }
 
 .navigation {
