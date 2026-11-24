@@ -167,3 +167,9 @@ button {
     corner-shape: squircle;
     flex-shrink: 0;
 }
+
+.footer > p {
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+}
